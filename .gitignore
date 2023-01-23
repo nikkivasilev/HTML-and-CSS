@@ -10,7 +10,14 @@ media
 
 *.bak
 
-.zip
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
 .idea/**/workspace.xml
 .idea/**/tasks.xml
