@@ -3,7 +3,6 @@ body {
     padding: 0px;
     background-color: #CCCCCC;
 }
-/* nav */
 ul {
     background-color: #444;
     text-align: center;
@@ -25,7 +24,6 @@ a {
     color: #ffffff;
 }
 
-/* main */
 section {
     margin-left: 20px;
 
@@ -47,11 +45,15 @@ p {
     font-size: 24px;
 }
 
-/* footer */
 
 footer {
     background-color: #444;
-    color: #fff;
+    
+}
+
+footer > p {
     text-align: center;
     padding: 10px;
+    color: #fff;
+    
 }
