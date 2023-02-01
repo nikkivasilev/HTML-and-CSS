@@ -1,0 +1,14 @@
+.viewport1 {
+    background-color: aqua;
+    
+}
+.viewport2 {
+    background-color:chocolate;
+}
+
+
+
+section.card {
+    display: block;
+    position: absolute;
+}
