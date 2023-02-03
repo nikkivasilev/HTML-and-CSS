@@ -1,6 +1,8 @@
 @import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
 
-
+body {
+    background-color:azure;
+}
 ul {
     display: inline-block;
 }
@@ -11,7 +13,10 @@ li {
 }
 
 a {
+    color: gray;
     border-radius: 50%;
+    background-color: lightblue;
+    padding: 2px;
     list-style: none;
 }
 

@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
 .viewport1 {
     background-color: aqua;
     
@@ -9,6 +16,15 @@
 
 
 section.card {
+    height: 50vh;
     display: block;
-    position: absolute;
+   position: relative;
+}
+
+img {
+    position: absolute; 
+    width: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
 }
