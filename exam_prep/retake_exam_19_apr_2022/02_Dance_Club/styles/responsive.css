@@ -1,1 +1,134 @@
-//TODO
+@media (max-width:800px) {
+    body {
+        font-size: 14px;
+        max-width: 800px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav p {
+        font-size: 26px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    header div h1 {
+        font-size: 62px;
+    }
+
+    .trainings {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2em;
+    }
+
+    .trainings div {
+        width: 40%;
+        padding-bottom: 2rem;
+    }
+
+    .trainings div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .classes,
+    .instructors {
+        width: 100%;
+        padding: 4em 0;
+    }
+
+    hr {
+        margin-bottom: 1.8rem;
+    }
+
+    .instructors>p {
+        padding: 1.8rem 0;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .instructors-pic {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .instructors-pic div {
+        width: 16rem;
+    }
+
+    .instructors-pic li {
+        padding-bottom: 1.2rem;
+    }
+
+    .instructors-pic h3 {
+        padding: 1.8rem 0 0.2rem 0;
+    }
+
+    .classes li {
+        width: 45%;
+    }
+
+    .classes h2 {
+        padding-bottom: 1.8rem;
+    }
+
+    .classes li>p {
+        font-size: 66px;
+    }
+
+    .classes li div h3 {
+        font-size: 24px;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+        height: min-content;
+        width: 95%;
+    }
+
+    .form {
+        width: 75%;
+    }
+
+    .map {
+        height: 300px;
+        margin-bottom: -55%;
+    }
+
+
+    .map img {
+        position: static;
+        height: auto;
+        border: 3px solid black;
+        padding: 1rem;
+        transform: none;
+    }
+
+    .site-footer .wrapper {
+        flex-wrap: wrap;
+      }
+
+
+    .site-footer .about {
+        flex: 0 0 100%;
+    }
+
+}

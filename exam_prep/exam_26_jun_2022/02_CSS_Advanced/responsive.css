@@ -1,0 +1,72 @@
+@media (max-width:600px){
+    * {
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    .left-to-right:first-child {
+        height: 600px;
+        padding: 20px;
+    }
+
+    main .left-to-right article {
+        display: flex;
+        flex-direction: column;
+        
+        width: 80%;
+        height: min-content;
+        padding: 60px 25px;
+        margin: auto;
+        color: #6c6c6c;
+        border-radius: 48px;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .left-to-right > article > button {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        margin: 20px auto;
+        background-color: white;
+    }
+
+    main section:nth-child(2) button, main section:nth-child(4) button {
+        display: none;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        background-color: white;
+
+    }
+
+    form {
+        width: 300px;
+        margin: auto;
+    }
+    
+    section form label input, section form textarea {
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    section form label {
+        display: flex;
+        align-items: center;
+    }
+}
