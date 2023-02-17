@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url(https://use.fontawesome.com/releases/v6.3.0/css/all.css);
+
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.dark-txt {
+    color: #222222;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 90vh;
+    background-color: #EFEFEF;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    margin: 30px;
+}
+
+nav > .menu {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 70px;
+}
+
+
+.horizontal-line {
+    height: 70px;
+    border-left: 1px solid black;
+}
+
+.text {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.right {
+    width: 48%;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.camera {
+    margin-top: 30px;
+}
+
+.inline {
+    display: inline-block;
+    width: 55px;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+ul.icons {
+    display: flex;
+    gap: 15px;
+    color: #909090;
+}
+
+.container.bg-img {
+    background-image: url(../images/thumb-1.jpeg);
+    background-position: center 0 ;
+    background-repeat: no-repeat;
+
+}
+
+.marg-img {
+    margin: 20px;
+}
+
+.normal-img {
+    width: 350px;
+}
+
+.main-img {
+    transform: scale(150%);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group .text {
+    text-align: center;
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.double-field input:first-of-type{
+    margin-right: 10px;
+}
+
+input {
+background-color: #EFEFEF;
+}
+input::placeholder {
+    color: #202020;
+}
+
+.big-inp input {
+    width: 390px;
+}
+.btn {
+    background-color: #222222;
+    color: #EFEFEF;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 40px;
+}
