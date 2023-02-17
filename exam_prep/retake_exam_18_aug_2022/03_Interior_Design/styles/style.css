@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+@import url(https://use.fontawesome.com/releases/v6.3.0/css/all.css);
+
+/* 
+Headings : Abril Fatface */
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Abril Fatface", Arial, Helvetica, sans-serif;
+}
+
+.top {
+    height: 100vh;
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.top-content {
+    display: flex;
+}
+
+.header {
+    margin: 30px;
+    padding: 20px 60px 15px 10px;
+    width: 200px;
+    height: fit-content;
+    box-shadow: 1px 1px 6px 2px rgb(71, 71, 71);
+}
+
+.header h1 {
+    border-bottom: 1px solid white;
+    font-size: 32px;
+}
+
+
+.intro {
+    margin-left: auto;
+    width: 300px;
+    margin-top: 150px;
+    margin-right: 25px;
+    padding: 20px 10px 15px 10px;
+    background: rgb(156, 146, 138);
+    background: linear-gradient(90deg, rgba(156, 146, 138, 1) 0%, rgba(202, 199, 198, 1) 100%);
+    box-shadow: 1px 1px 6px 2px rgb(71, 71, 71);
+    text-align: right;
+    color: #E7F8FD;
+}
+
+.intro .right {
+    color: #8D8581;
+    font-size: 20px;
+}
+
+.intro p {
+    font-size: 14px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom .left {
+    width: 70%;
+    padding: 70px;
+}
+
+.services {
+    margin-bottom: 65px;
+}
+
+.services h2 {
+    font-size: 36px;
+}
+
+.services-ul li {
+    margin: 15px 0;
+}
+
+.services-ul li i {
+    margin-right: 5px;
+}
+
+.services-ul li p {
+    display: inline;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.contact h2 {
+    border-bottom: 2px solid #808080;
+    font-size: 36px;
+}
+
+ul.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.email-subm {
+    display: flex;
+    gap: 10px;
+}
+
+.form-impt {
+    border: none;
+    border-radius: 6px;
+    background-color: #BAB1AD;
+    padding: 5px 70px 5px 5px;
+}
+
+.form-impt::placeholder {
+    color: #E7F8FD;
+}
+
+.button {
+    background-color: #67784D;
+    color: #E7F8FD;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 15px;
+}
+
+
+.bottom .right {
+    width: 30%;
+    background-color: #BAB1AD;
+}
+
+.datas {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.datas li {
+    margin: 40px;
+}
+
+.big-num {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #E7F8FD;
+    font-size: 52px;
+    line-height: 1;
+}
+
+.data {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #495C6E;
+}
