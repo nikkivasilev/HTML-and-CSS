@@ -1,0 +1,173 @@
+@import url(https://use.fontawesome.com/releases/v6.3.0/css/all.css);
+
+/* 
+black txt - #000000 
+brown - #370511
+*/
+
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    width: 100vw;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+/* COMMON */
+.wrapper {
+    padding: 40px 15%;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+
+.site-head {
+    height: 75vh;
+    background-image: url(../images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center -160px;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+}
+
+.navigation {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #000000;
+}
+
+.special-btn {
+    color: #FFFFFF;
+    background-color: #370511;
+    text-align: center;
+    border-radius: 16px;
+    padding: 5px 20px;
+}
+
+.header-info {
+    margin-top: 100px;
+    gap: 10px;    
+}
+
+.title {
+    margin-bottom: 5px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title-txt {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title-txt:last-of-type {
+    margin-bottom: 20px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    font-size: 26px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.card {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.card-txt {
+    margin: 10px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.card-btn {
+    border: 1px solid #C4B6B9;
+    background-color: transparent;
+    border-radius: 36px;
+    padding: 6px 15px;
+}
+
+/* FOOTER */
+
+.site-foot {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,68 @@
+@import url(https://use.fontawesome.com/releases/v6.3.0/css/all.css);
+
+
+
+body {
+    font-family: Montserra, Arial, Helvetica, sans-serif;
+    background-color: #F6E0B5;
+    width: 90vw;
+    height: 90vh;
+}
+
+.wrapper {
+    margin: 30px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    
+}
+
+
+.card {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 16px;
+    color: #E9EFF3;
+    background-color: #66545E;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px -8px rgba(0,0,0,1);
+}
+
+.card-img {
+    height: 90%;
+    object-fit: cover;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.nav-heading {
+    color: #625A6C;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: #625A6C;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
